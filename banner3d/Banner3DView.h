@@ -47,7 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 停止动态检测
  */
-- (void)stop;
+- (void)stop __attribute__((unused));
 
 @end
 
